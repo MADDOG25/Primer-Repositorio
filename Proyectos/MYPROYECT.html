@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!--BOOTSTRAP 5.1.0-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!--TITULO-->
-    <title class="title">UR Beats</title>
+    <!--CDN FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <!--STYLE CSS-->
-<link rel="stylesheet" href="style.css">
-    <!--CDN AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <!--TITULO-->
+<title class="title">UR Beats</title>
 </head>
-
-    <!--BLOQUE 1-->
-<br>
-<div class="container-sm">
-    <div class="row">
-        <div class="col-sm-12"><a class="btn btn-dark xs" href="#">LOGIN</a></div>
-        <br><br>
-        <div class="col-sm-12"><a class="btn btn-dark xs" href="#">REGISTER</a></div>
-    </div>
-<hr>
-</div>
-
-<center><h1 class="titulo_de_pagina">UR Beats</h1></center>
-
 <body>
-    <!--BLOQUE 2-->
-<section>
-    <article>
-        <div class="container-sm">
-            <center><div class="row">
-                <div class="col-sm-4" class="border border-secondary"><a href="#" class="link-light">UR BEATS</a>
-                <br><i class="fa-solid fa-angles-up"></i>
-                </div>
-                <div class="col-sm-4" class="border border-secondary"><a href="#" class="link-light">UR SALES</a>
-                <br><i class="fa-solid fa-money-bill-trend-up"></i>
-                </div>
-                <div class="col-sm-4" class="border border-secondary"><a href="#" class="link-light">UR SHOPPING</a>
-                <br><i class="fa-solid fa-sack-dollar"></i>
-                </div>
-            </div></center>
-            <center><div class="row">
-                <div class="col-sm-6"><a href="#" class="link-light">UR FANS</a>
-                <br><i class="fa-solid fa-hand-sparkles"></i>
-                </div>
-                <div class="col-sm-6"><a href="#" class="link-light">UR STATS</a>
-                <br><i class="fa-solid fa-signal"></i>
-                </div>
-            </div></center>
+
+    <!-- NAVEGACION -->
+<div class="nav-bar">
+    <div class="nav">
+        <div><a href="#">Login</a>
+            <input type="text" placeholder="username or email" class="form-control">
         </div>
-    </article>
-</section>
-
-<br>
-
-<div class="container">
-    <section>
-<hr>
-    <center><h4 class="contact">CONTACT</h4><i class="fa-solid fa-headphones-simple"></i></center>
-    </section>
-</div>
-
-<br>
-
-<footer class="footer1">
-<center><p id="footer">Todos los derechos reservados©.<br><p>Author: Jeffrey Morgan</p><p>2022</p></center>
-</footer>
-
-<div class="container">
-<hr>
-    <div class="row">
-        <div class="col-sm-12">
-            <footer class="footer2">
-            <p>Enjoy the moments, learn as much as you can and be happy with what makes you happy.</p>
-            </footer>
+        <div><a href="#">Register</a>
+            <input type="password" placeholder="password">
         </div>
     </div>
 </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <header><h1>UR BEATS</h1></header>
+    </div>
+
+<!-- MENU PRINCIPAL -->
+    <div class="flex-container">
+            <div class="caja"><a href="#">UR BEATS <br>
+                <i class="fa-solid fa-angles-up"></i></a></div>
+            <div class="caja"><a href="#">UR SALES <br> 
+                <i class="fa-solid fa-money-bill-trend-up"></i></a></div>
+            <div class="caja"><a href="#">UR SHOPPING <br> 
+                <i class="fa-solid fa-cart-shopping"></i></a></div>
+            <div class="caja"><a href="#">UR FANS <br> 
+                <i class="fa-solid fa-hand-sparkles"></i></a></div>
+            <div class="caja"><a href="#">UR STATS <br> 
+                <i class="fa-solid fa-signal"></i></a></div>
+    </div>
+
+<!-- PLANES -->
+<section class="planes flex text-center">
+    <div class="columna">
+        <h2>Plan Basic beats</h2>
+        <p class="precio">$4.99</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem ipsum, dolor</p>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">BUY</a>
+    </div>
+    <div class="columna">
+        <h2>Plan Mega Beats</h2>
+        <p class="precio">$19.99</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem ipsum, dolor</p>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">BUY</a>
+    </div>
+    <div class="columna">
+        <h2>Plan Ultra Beats</h2>
+        <p class="precio">$49.99</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem ipsum, dolor</p>
+        <p>Lorem ipsum, dolor sit amet consectetur</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">BUY</a>
+    </div>
+</section>
+<hr>
+
+<!-- CONTACT -->
+<div class="contact">
+    <h3>Contact</h3>
+    <a href="mailto">mdog1525@gmail.com</a>
+</div>
+<hr>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="pie">
+        <div><a href="#">Desarrollado por Jeffrey Morgan</a></div>
+    </div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
