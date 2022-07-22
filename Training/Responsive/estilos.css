@@ -15,7 +15,7 @@ a{
     padding: 0 50px;
 }
 
-/*ESTILOS ELEMTENTOS*/
+/*ESTILOS ELEMENTOS*/
 .padre{
     display: flex;
     flex-flow: column nowrap;
